@@ -10,12 +10,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/jquery.formstyler.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -25,7 +31,9 @@
                 <div class="header__contacts">
                     <a class="header__phone" href="tel:79061010909">+7 906 101 07 07</a>
                     <a class="header__email" href="#">aminoffruslan@gmail.com</a>
-                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Написать</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                        Бесплатная консультация
+                    </a>
                 </div>
             </div>
         </div>
@@ -34,10 +42,13 @@
                 <div class="header__content-inner">
                     <div class="header__logo">
                         <a href="#">
-                            <img src="img/logo.png" alt="">
+                            <img src="img/logo-new.png" alt="">
                         </a>
                     </div>
                     <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
                         <ul>
                             <li><a href="#">Главная</a></li>
                             <li><a href="#">О нас</a></li>
@@ -94,6 +105,7 @@
             </div>
         </div>
     </section>
+    <!--
     <section class="services">
         <div class="container">
             <div class="services__top">
@@ -292,11 +304,14 @@
                                 Цитата 1
                             </div>
                             <div class="news__slider-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.
+                                «На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов
+                                имеющих специализации в отдельных областях права. На сегодняшний день, коллектив
+                                компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных
+                                областях права. На сегодняшний день, коллектив компании объединяет
+                                высокопрофессиональных экспертов имеющих специализации в отдельных областях права...»
                             </div>
                             <div class="news__slider-author">
-                                Автор автор автор
+                                Андрей Ворошилов, генеральный директор компании Bankom
                             </div>
                         </div>
                         <div class="news__slider-item">
@@ -304,11 +319,12 @@
                                 Цитата 2
                             </div>
                             <div class="news__slider-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
                                 labore et dolore magna aliqua.
                             </div>
                             <div class="news__slider-author">
-                                Автор автор автор
+                                Author
                             </div>
                         </div>
                         <div class="news__slider-item">
@@ -316,16 +332,17 @@
                                 Цитата 3
                             </div>
                             <div class="news__slider-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
                                 labore et dolore magna aliqua.
                             </div>
                             <div class="news__slider-author">
-                                Автор автор автор
+                                Author
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="news__blog">
+                <a href="#" class="news__blog">
                     <div class="news__images">
                         <img src="img/news-1.jpg" alt="">
                         <div class="news__date">03.04</div>
@@ -337,8 +354,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.
                     </div>
-                </div>
-                <div class="news__blog">
+                </a>
+                <a href="#" class="news__blog">
                     <div class="news__images">
                         <img src="img/news-2.jpg" alt="">
                         <div class="news__date">04.04</div>
@@ -350,14 +367,55 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer_title">
+                            J-PRO Tennis Antalya
+                        </div>
+                        <div class="footer_text">
+                            Теннисная академия J-Pro. Работаем и растим профессионалов.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                            Написать нам
+                        </a>
+                        <ul class="footer__list">
+                            <li><a class="footer__phone" href="tel:79061010707">+7 906 101 07 07</a></li>
+                            <li><a href="#">aminoffruslan@gmail.com</a></li>
+                            <li><a class="footer_adress" href="#">Meltem, Hotel Su, Dumlupınar Blv. No:205, 07050
+                                    Muratpaşa/Antalya</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_map">
+                        <iframe width="630px" height="250px"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1636422.5014469717!2d30.9968315!3d36.767264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4874bbf4fcf9c44d%3A0x76a41e59095c45ef!2sJ-PRO%20Tennis%20Academy%20Antalya!5e0!3m2!1sru!2str!4v1693308857239!5m2!1sru!2str"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <div class="container">
+                <div class="copy__text">
+                    © 2023 Template by Eka Kirkitadze. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer> -->
 
     <div id="modal">
-        <h2>Hello</h2>
-        <p>you are awesome</p>
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <input type="submit" value="Отправить">
+        </form>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
