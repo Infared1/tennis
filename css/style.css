@@ -592,11 +592,11 @@ justify-content: space-between;
 .footer_map{
     padding-top: 10px;
     max-width: 630px;
-}
-/* .footer_map iframe{
-    height: 250px;
     width: 100%;
-} */
+}
+.footer_map iframe{
+    width: 100%;
+}
 .footer_title{
     font-size: 16px;
     line-height: 36px;
